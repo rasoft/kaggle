@@ -1,0 +1,25 @@
+---
+description: Bilingual paragraph format and Chinese highlighting
+alwaysApply: true
+---
+
+# Bilingual format
+
+Pair each English paragraph with its Chinese translation. Wrap every Chinese span in `<mark>`.
+
+```markdown
+English paragraph.
+
+<mark>对应的中文段落。</mark>
+```
+
+- Separate major sections with `---`.
+- Keep the source structure and Markdown syntax.
+- Chinese punctuation in Chinese; English punctuation in English. Quotes: 「」 or "".
+- Space between Chinese and English or digits: `AI 系统`, `7 个章节`.
+
+Quality bar: faithful meaning, natural Chinese, consistent terms, valid Markdown, images at the original positions.
+
+## Endnotes (chapter 7)
+
+Keep URLs, citation numbers, and technical references unchanged. Translate the descriptive text only, still inside `<mark>`.

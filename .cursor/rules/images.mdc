@@ -1,0 +1,24 @@
+---
+description: Place book figures where the source marks them
+alwaysApply: true
+---
+
+# Images
+
+Put each figure exactly where the source marker is. Check `chapters/image_index.md`, then use the file in `images/`.
+
+Source marker:
+
+```
+[IMAGE_1: image_001_page_12_1.png - 位于第 12 页]
+```
+
+Replace it with an English image and a Chinese caption:
+
+```markdown
+![Agent Architecture Diagram](images/image_001_page_12_1.png)
+
+<mark>[图片_001：智能体架构图 - 第 12 页]</mark>
+```
+
+Counts: chapter 2 has 1 image, chapter 3 has 1, chapter 4 has 5, chapter 5 has 4.

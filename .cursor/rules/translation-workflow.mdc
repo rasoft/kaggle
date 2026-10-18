@@ -1,0 +1,22 @@
+---
+description: Steps for translating and reviewing a chapter
+alwaysApply: true
+---
+
+# Translate a chapter
+
+1. Read `chapters/chapter0X_*.txt`.
+2. Read that chapter's entries in `chapters/image_index.md`.
+3. Write `0X-Title.md` at the repo root.
+4. Wrap every Chinese span in `<mark>`.
+5. Replace each image marker in place, with English alt text and a Chinese `<mark>` caption.
+6. Update the README progress table.
+
+## Review before finishing
+
+- Every Chinese span is inside `<mark>`.
+- Terms match the README dictionary.
+- Chinese/English and Chinese/number spacing is correct.
+- Major sections are split by `---`.
+- Image count and order match `chapters/image_index.md`.
+- Endnotes keep the original URLs and numbering.

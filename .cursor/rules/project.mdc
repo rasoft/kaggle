@@ -1,0 +1,29 @@
+---
+description: Project context for the bilingual Introduction to Agents translation
+alwaysApply: true
+---
+
+# Introduction to Agents translation
+
+Bilingual Chinese–English translation of "Introduction to Agents: From Predictive AI to Autonomous Agents". Documentation only: Markdown chapters, extracted source, and images. Do not build, test, or run application code. Write Markdown for GitHub rendering.
+
+## Layout
+
+- `0X-Title.md` — translated chapters
+- `chapters/chapter0X_*.txt` — extracted source
+- `chapters/image_index.md` — where each figure belongs
+- `images/` — 11 extracted figures
+- `source/Introduction_to_Agents.pdf` — original
+- `README.md` — progress table and the term dictionary
+
+Chapters: 1 From Predictive AI (2 pages), 2 Introduction to AI Agents (6 pages, 1 image), 3 Taxonomy (5 pages, 1 image), 4 Core Architecture (28 pages, 5 images), 5 Advanced examples (4 pages, 4 images), 6 Conclusion (1 page), 7 Endnotes (3 pages). Read README for current progress; do not assume a chapter is unfinished.
+
+## Working style
+
+- Continue through a requested translation without stopping to ask permission.
+- After a chapter, update the README progress table.
+- When translations are finished, confirm every image is in the chapter file at the source position.
+- License is CC BY-NC 4.0, for education and community use.
+
+Original: https://www.kaggle.com/whitepaper-introduction-to-agents
+Repo: https://github.com/0xPabloxx/introduction-to-agents-cn

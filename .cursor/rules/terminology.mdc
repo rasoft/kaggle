@@ -1,0 +1,22 @@
+---
+description: First-use technical terms for the agent translation
+alwaysApply: true
+---
+
+# Terminology
+
+On first use in a chapter, keep the English term and add Chinese in parentheses. Match the full dictionary in README.md (技术术语对照).
+
+- Agent → 智能体 (Agent)
+- Agentic System → 智能体系统 (Agentic System)
+- Autonomous Agent → 自主智能体 (Autonomous Agent)
+- Predictive AI → 预测性 AI (Predictive AI)
+- Model → 模型 (Model)
+- Tools → 工具 (Tools)
+- Orchestration → 编排 (Orchestration)
+- LLM → 大语言模型 (LLM)
+- Reasoning → 推理 (Reasoning)
+- Planning → 规划 (Planning)
+- Memory → 记忆 (Memory)
+- Reflection → 反思 (Reflection)
+- Tool Use → 工具使用 (Tool Use)
