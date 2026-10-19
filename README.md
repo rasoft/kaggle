@@ -225,6 +225,41 @@ Terms for this paper, on first use in a chapter: Tool calling 工具调用 (tool
 
 <mark>本文术语在章节内首次出现时保留英文：Tool calling 工具调用 (tool calling)、Function calling 函数调用 (function calling)、Foundation model 基础模型 (foundation model)、Function Tool 函数工具 (Function Tool)、Built-in tool 内置工具 (built-in tool)、Agent Tool 智能体工具 (Agent Tool)、Host 宿主 (Host)、Client 客户端 (Client)、Server 服务器 (Server)、Resource 资源 (Resource)、Prompt 提示 (Prompt)、Sampling 采样 (Sampling)、Elicitation 征询 (Elicitation)、Root 根 (Root)、Tool Shadowing 工具遮蔽 (Tool Shadowing)、Confused deputy 混淆代理人 (confused deputy)、Dynamic Capability Injection 动态能力注入 (Dynamic Capability Injection)、Agent Identity 智能体身份 (Agent Identity)、Agent Gateway 智能体网关 (Agent Gateway)、Agent Registry 智能体注册表 (Agent Registry)。</mark>
 
+## Agents Companion
+
+<mark>智能体伴读</mark>
+
+Source: `whitepaper-agent-companion/Agents_Companion_v2.pdf` (February 2025, 76 pages). Authors: Antonio Gulli, Lavi Nigam, Julia Wiesinger, Vladimir Vuskovic, Irina Sigler, Ivan Nardini, Nicolas Stroppa, Sokratis Kartakis, Narek Saribekyan, Anant Nawalgaria, and Alan Bount. Editors and curators: Anant Nawalgaria. Content contributors: Steven Johnson and Hussain Chinoy. Designer: Michael Lanning.
+
+<mark>原文：`whitepaper-agent-companion/Agents_Companion_v2.pdf`（2025 年 2 月，76 页）。作者：Antonio Gulli、Lavi Nigam、Julia Wiesinger、Vladimir Vuskovic、Irina Sigler、Ivan Nardini、Nicolas Stroppa、Sokratis Kartakis、Narek Saribekyan、Anant Nawalgaria、Alan Bount。编辑与策划：Anant Nawalgaria。内容贡献者：Steven Johnson、Hussain Chinoy。设计师：Michael Lanning。</mark>
+
+Tables 1–4 are vector tables, written as Markdown tables. The printed table of contents puts Agent Builder on page 68 and Summary on page 69. In the footer, the automotive advantages section runs through page 69, Agent Builder starts on page 69, and Summary starts on page 70. The progress table uses the footer page numbers. The cover prints the last author’s name as Alan Bount.
+
+<mark>表 1–4 是矢量表格，已写成 Markdown 表。印刷目录把 Agent Builder 标在第 68 页、Summary 标在第 69 页。按页脚，汽车一章的「优势」写到第 69 页，Agent Builder 从第 69 页开始，Summary 从第 70 页开始。进度表按页脚页码标注。封面把最后一位作者印成 Alan Bount。</mark>
+
+| <mark>章节</mark> | <mark>文件</mark> | <mark>原文页码</mark> | <mark>图片</mark> | <mark>状态</mark> |
+| --- | --- | --- | --- | --- |
+| <mark>标题与目录</mark> | [00-Title-and-Contents.md](whitepaper-agent-companion/00-Title-and-Contents.md) | 1–5 | 0 | <mark>完成</mark> |
+| 1. Introduction | [01-Introduction.md](whitepaper-agent-companion/01-Introduction.md) | 6–8 | 0 | <mark>完成</mark> |
+| 2. AgentOps | [02-AgentOps.md](whitepaper-agent-companion/02-AgentOps.md) | 8–14 | 3 | <mark>完成</mark> |
+| 3. Agent Evaluation | [03-Agent-Evaluation.md](whitepaper-agent-companion/03-Agent-Evaluation.md) | 14–23 | 3 | <mark>完成</mark> |
+| 4. Multiple Agents | [04-Multiple-Agents.md](whitepaper-agent-companion/04-Multiple-Agents.md) | 23–33 | 2 | <mark>完成</mark> |
+| 5. Agentic RAG | [05-Agentic-RAG.md](whitepaper-agent-companion/05-Agentic-RAG.md) | 33–37 | 2 | <mark>完成</mark> |
+| 6. Agents in the enterprise | [06-Agents-in-the-Enterprise.md](whitepaper-agent-companion/06-Agents-in-the-Enterprise.md) | 38–45 | 2 | <mark>完成</mark> |
+| 7. From agents to contractors | [07-From-Agents-to-Contractors.md](whitepaper-agent-companion/07-From-Agents-to-Contractors.md) | 46–53 | 2 | <mark>完成</mark> |
+| 8. Automotive AI | [08-Automotive-AI.md](whitepaper-agent-companion/08-Automotive-AI.md) | 54–69 | 4 | <mark>完成</mark> |
+| 9. Agent Builder | [09-Agent-Builder.md](whitepaper-agent-companion/09-Agent-Builder.md) | 69–70 | 0 | <mark>完成</mark> |
+| 10. Summary | [10-Summary.md](whitepaper-agent-companion/10-Summary.md) | 70–73 | 0 | <mark>完成</mark> |
+| Endnotes | [11-Endnotes.md](whitepaper-agent-companion/11-Endnotes.md) | 74–76 | 0 | <mark>完成</mark> |
+
+Image index: [whitepaper-agent-companion/chapters/image_index.md](whitepaper-agent-companion/chapters/image_index.md). All 18 figures are placed in the chapter files.
+
+<mark>图片索引：[whitepaper-agent-companion/chapters/image_index.md](whitepaper-agent-companion/chapters/image_index.md)。18 张正文图均已放入对应章节。</mark>
+
+Terms for this paper, on first use in a chapter: Agent 智能体 (Agent), AgentOps 智能体运维 (AgentOps), Multi-Agent 多智能体 (Multi-Agent), Model 模型 (Model), Tools 工具 (Tools), Tool Use 工具使用 (Tool Use), Orchestration 编排 (Orchestration), LLM 大语言模型 (LLM), Reasoning 推理 (Reasoning), Planning 规划 (Planning), Memory 记忆 (Memory), Reflection 反思 (Reflection), Trajectory 轨迹 (Trajectory), RAG 检索增强生成 (RAG), Agentic RAG 智能体式检索增强生成 (Agentic RAG), Grounding 依据锚定 (grounding), LLM-as-a-Judge 大模型即评委 (LLM-as-a-Judge), HITL 人在回路 (Human-in-the-Loop, HITL), Contractor 承包方 (Contractor), Contract 合约 (Contract).
+
+<mark>本文术语在章节内首次出现时保留英文：Agent 智能体 (Agent)、AgentOps 智能体运维 (AgentOps)、Multi-Agent 多智能体 (Multi-Agent)、Model 模型 (Model)、Tools 工具 (Tools)、Tool Use 工具使用 (Tool Use)、Orchestration 编排 (Orchestration)、LLM 大语言模型 (LLM)、Reasoning 推理 (Reasoning)、Planning 规划 (Planning)、Memory 记忆 (Memory)、Reflection 反思 (Reflection)、Trajectory 轨迹 (Trajectory)、RAG 检索增强生成 (RAG)、Agentic RAG 智能体式检索增强生成 (Agentic RAG)、Grounding 依据锚定 (grounding)、LLM-as-a-Judge 大模型即评委 (LLM-as-a-Judge)、HITL 人在回路 (Human-in-the-Loop, HITL)、Contractor 承包方 (Contractor)、Contract 合约 (Contract)。</mark>
+
 ## Agents
 
 <mark>智能体</mark>
