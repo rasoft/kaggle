@@ -90,3 +90,33 @@ On first use in a chapter, the Chinese keeps the English term. This table is the
 | Builder / Developer | <mark>构建者 (Builder) / 开发者 (Developer)</mark> |
 | Co-load | <mark>共同加载 (co-load)</mark> |
 | Runbook | <mark>运维手册 (runbook)</mark> |
+
+## Introduction to Agents
+
+<mark>智能体入门</mark>
+
+Source: `whitepaper-introduction-to-agents/2025_Day_1_Rewrite_v1_IntroductionToAgents.pdf` (Updated May 2026, 54 pages). Authors: Alan Blount, Antonio Gulli, Shubham Saboo, Michael Zimmermann, and Vladimir Vuskovic.
+
+<mark>原文：`whitepaper-introduction-to-agents/2025_Day_1_Rewrite_v1_IntroductionToAgents.pdf`（2026 年 5 月更新，54 页）。作者：Alan Blount、Antonio Gulli、Shubham Saboo、Michael Zimmermann、Vladimir Vuskovic。</mark>
+
+This is the May 2026 rewrite. Body text that matches the November 2025 edition keeps the existing translation. Passages on model routing, deployment, evaluation, observability, A2UI, agent identity, Agent Gateway, and Agent Registry are translated from the rewrite.
+
+<mark>这是 2026 年 5 月的改写版。与 2025 年 11 月版相同的正文沿用既有译文。模型路由、部署、评估、可观测性、A2UI、智能体身份、Agent Gateway 和 Agent Registry 这几处按改写版重译。</mark>
+
+| <mark>章节</mark> | <mark>文件</mark> | <mark>原文页码</mark> | <mark>图片</mark> | <mark>状态</mark> |
+| --- | --- | --- | --- | --- |
+| 1. From Predictive AI | [01-From-Predictive-AI-to-Autonomous-Agents.md](whitepaper-introduction-to-agents/01-From-Predictive-AI-to-Autonomous-Agents.md) | 6–7 | 0 | <mark>完成</mark> |
+| 2. Introduction to AI Agents | [02-Introduction-to-AI-Agents.md](whitepaper-introduction-to-agents/02-Introduction-to-AI-Agents.md) | 8–13 | 1 | <mark>完成</mark> |
+| 3. Taxonomy | [03-A-Taxonomy-of-Agentic-Systems.md](whitepaper-introduction-to-agents/03-A-Taxonomy-of-Agentic-Systems.md) | 14–18 | 1 | <mark>完成</mark> |
+| 4. Core Architecture | [04-Core-Agent-Architecture.md](whitepaper-introduction-to-agents/04-Core-Agent-Architecture.md) | 19–46 | 5 | <mark>完成</mark> |
+| 5. Advanced examples | [05-Examples-of-Advanced-Agents.md](whitepaper-introduction-to-agents/05-Examples-of-Advanced-Agents.md) | 47–50 | 4 | <mark>完成</mark> |
+| 6. Conclusion | [06-Conclusion.md](whitepaper-introduction-to-agents/06-Conclusion.md) | 51 | 0 | <mark>完成</mark> |
+| 7. Endnotes | [07-Endnotes.md](whitepaper-introduction-to-agents/07-Endnotes.md) | 52–54 | 0 | <mark>完成</mark> |
+
+Image index: [whitepaper-introduction-to-agents/chapters/image_index.md](whitepaper-introduction-to-agents/chapters/image_index.md). All 11 figures are placed in the chapter files.
+
+<mark>图片索引：[whitepaper-introduction-to-agents/chapters/image_index.md](whitepaper-introduction-to-agents/chapters/image_index.md)。11 张正文图均已放入对应章节。</mark>
+
+Terms for this paper, on first use in a chapter: Agent 智能体 (Agent), Agentic System 智能体系统 (Agentic System), Autonomous Agent 自主智能体 (Autonomous Agent), Predictive AI 预测性 AI (Predictive AI), Model 模型 (Model), Tools 工具 (Tools), Tool Use 工具使用 (Tool Use), Orchestration 编排 (Orchestration), LLM 大语言模型 (LLM), Reasoning 推理 (Reasoning), Planning 规划 (Planning), Memory 记忆 (Memory), Reflection 反思 (Reflection).
+
+<mark>本文术语在章节内首次出现时保留英文：Agent 智能体 (Agent)、Agentic System 智能体系统 (Agentic System)、Autonomous Agent 自主智能体 (Autonomous Agent)、Predictive AI 预测性 AI (Predictive AI)、Model 模型 (Model)、Tools 工具 (Tools)、Tool Use 工具使用 (Tool Use)、Orchestration 编排 (Orchestration)、LLM 大语言模型 (LLM)、Reasoning 推理 (Reasoning)、Planning 规划 (Planning)、Memory 记忆 (Memory)、Reflection 反思 (Reflection)。</mark>
