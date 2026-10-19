@@ -11,6 +11,7 @@ This index lists the translated whitepapers from three Kaggle courses, in course
 <mark>目录</mark>
 
 - [2025 5-Day Gen AI](#2025-5-day-gen-ai)
+  - [Day 1: Prompt Engineering](#day-1-prompt-engineering)
   - [Day 3: Agents](#day-3-agents)
   - [Day 3: Agents Companion](#day-3-agents-companion)
 - [2025 5-Day AI Agents](#2025-5-day-ai-agents)
@@ -31,6 +32,46 @@ This index lists the translated whitepapers from three Kaggle courses, in course
 Directory: `2025_5-day-genai`. Course guide: [2025_5-day-genai/README.md](2025_5-day-genai/README.md). Kaggle: [5-day-genai](https://www.kaggle.com/learn-guide/5-day-genai).
 
 <mark>目录：`2025_5-day-genai`。课程说明：[2025_5-day-genai/README.md](2025_5-day-genai/README.md)。Kaggle：[5-day-genai](https://www.kaggle.com/learn-guide/5-day-genai)。</mark>
+
+### Day 1: Prompt Engineering
+
+<mark>第 1 天：提示工程</mark>
+
+Source: `2025_5-day-genai/d1_whitepaper-prompt-engineering/22365_3_Prompt Engineering_v7 (1).pdf` (February 2025, 68 pages). Author: Lee Boonstra. Content contributors: Michael Sherman, Yuan Cao, Erick Armbrust, Anant Nawalgaria, Antonio Gulli, and Simone Cammel. Curators and editors: Antonio Gulli, Anant Nawalgaria, and Grace Mollison. Technical writer: Joey Haymaker. Designer: Michael Lanning.
+
+<mark>原文：`2025_5-day-genai/d1_whitepaper-prompt-engineering/22365_3_Prompt Engineering_v7 (1).pdf`（2025 年 2 月，68 页）。作者：Lee Boonstra。内容贡献者：Michael Sherman、Yuan Cao、Erick Armbrust、Anant Nawalgaria、Antonio Gulli、Simone Cammel。策划与编辑：Antonio Gulli、Anant Nawalgaria、Grace Mollison。技术写作：Joey Haymaker。设计师：Michael Lanning。</mark>
+
+Tables 1–21 are vector tables, written as field tables with the prompt and output in fenced blocks. The only content figure is Figure 1, the chain-of-thought versus tree-of-thoughts diagram on page 36. Cover art on pages 1–3 is decorative. The printed captions of Tables 9 and 10 say “self consistency” in the step-back section. The last line of Table 14 is cut off at the table border. Snippet 5 is cut off at the bottom of page 62.
+
+<mark>表 1–21 是矢量表格，已写成字段表，提示和输出放在围栏代码块里。正文图只有图 1，即第 36 页思维链与思维树的对照。第 1–3 页的封面图形是装饰。表 9 和表 10 印在后退提示一节，标题却写成 “self consistency”。表 14 的最后一行在表格边框处被截断。片段 5 在第 62 页底部被截断。</mark>
+
+| <mark>章节</mark> | <mark>文件</mark> | <mark>原文页码</mark> | <mark>图片</mark> | <mark>状态</mark> |
+| --- | --- | --- | --- | --- |
+| <mark>标题与目录</mark> | [00-Title-and-Contents.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/00-Title-and-Contents.md) | 1–5 | 0 | <mark>完成</mark> |
+| 1. Introduction | [01-Introduction.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/01-Introduction.md) | 6 | 0 | <mark>完成</mark> |
+| 2. Prompt engineering | [02-Prompt-Engineering.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/02-Prompt-Engineering.md) | 7–8 | 0 | <mark>完成</mark> |
+| 3. LLM output configuration | [03-LLM-Output-Configuration.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/03-LLM-Output-Configuration.md) | 8–13 | 0 | <mark>完成</mark> |
+| 4. Zero shot | [04-General-Prompting-Zero-Shot.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/04-General-Prompting-Zero-Shot.md) | 13–15 | 0 | <mark>完成</mark> |
+| 5. One-shot & few-shot | [05-One-Shot-and-Few-Shot.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/05-One-Shot-and-Few-Shot.md) | 15–18 | 0 | <mark>完成</mark> |
+| 6. System, context, and role | [06-System-Contextual-and-Role-Prompting.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/06-System-Contextual-and-Role-Prompting.md) | 18–24 | 0 | <mark>完成</mark> |
+| 7. Step-back prompting | [07-Step-Back-Prompting.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/07-Step-Back-Prompting.md) | 25–28 | 0 | <mark>完成</mark> |
+| 8. Chain of Thought | [08-Chain-of-Thought.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/08-Chain-of-Thought.md) | 29–32 | 0 | <mark>完成</mark> |
+| 9. Self-consistency | [09-Self-Consistency.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/09-Self-Consistency.md) | 32–36 | 0 | <mark>完成</mark> |
+| 10. Tree of Thoughts | [10-Tree-of-Thoughts.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/10-Tree-of-Thoughts.md) | 36–37 | 1 | <mark>完成</mark> |
+| 11. ReAct | [11-ReAct.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/11-ReAct.md) | 37–39 | 0 | <mark>完成</mark> |
+| 12. Automatic Prompt Engineering | [12-Automatic-Prompt-Engineering.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/12-Automatic-Prompt-Engineering.md) | 40–41 | 0 | <mark>完成</mark> |
+| 13. Code prompting | [13-Code-Prompting.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/13-Code-Prompting.md) | 42–54 | 0 | <mark>完成</mark> |
+| 14. Best Practices | [14-Best-Practices.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/14-Best-Practices.md) | 54–66 | 0 | <mark>完成</mark> |
+| 15. Summary | [15-Summary.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/15-Summary.md) | 66–67 | 0 | <mark>完成</mark> |
+| Endnotes | [16-Endnotes.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/16-Endnotes.md) | 68 | 0 | <mark>完成</mark> |
+
+Image index: [2025_5-day-genai/d1_whitepaper-prompt-engineering/chapters/image_index.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/chapters/image_index.md). The one content figure is placed in the Tree of Thoughts chapter.
+
+<mark>图片索引：[2025_5-day-genai/d1_whitepaper-prompt-engineering/chapters/image_index.md](2025_5-day-genai/d1_whitepaper-prompt-engineering/chapters/image_index.md)。1 张正文图已放入思维树一章。</mark>
+
+Terms for this paper, on first use in a chapter: Prompt 提示 (Prompt), Prompt Engineering 提示工程 (Prompt Engineering), LLM 大语言模型 (LLM), Model 模型 (Model), Token 词元 (token), Temperature 温度 (temperature), Sampling 采样 (Sampling), Zero-shot 零样本 (zero-shot), One-shot 单样本 (one-shot), Few-shot 少样本 (few-shot), System prompting 系统提示 (system prompting), Role prompting 角色提示 (role prompting), Contextual prompting 上下文提示 (contextual prompting), Step-back prompting 后退提示 (step-back prompting), Chain of Thought 思维链 (Chain of Thought, CoT), Self-consistency 自洽 (self-consistency), Tree of Thoughts 思维树 (Tree of Thoughts, ToT), ReAct 推理与行动 (Reason and Act, ReAct), Reasoning 推理 (Reasoning), Hallucination 幻觉 (hallucination), RAG 检索增强生成 (RAG).
+
+<mark>本文术语在章节内首次出现时保留英文：Prompt 提示 (Prompt)、Prompt Engineering 提示工程 (Prompt Engineering)、LLM 大语言模型 (LLM)、Model 模型 (Model)、Token 词元 (token)、Temperature 温度 (temperature)、Sampling 采样 (Sampling)、Zero-shot 零样本 (zero-shot)、One-shot 单样本 (one-shot)、Few-shot 少样本 (few-shot)、System prompting 系统提示 (system prompting)、Role prompting 角色提示 (role prompting)、Contextual prompting 上下文提示 (contextual prompting)、Step-back prompting 后退提示 (step-back prompting)、Chain of Thought 思维链 (Chain of Thought, CoT)、Self-consistency 自洽 (self-consistency)、Tree of Thoughts 思维树 (Tree of Thoughts, ToT)、ReAct 推理与行动 (Reason and Act, ReAct)、Reasoning 推理 (Reasoning)、Hallucination 幻觉 (hallucination)、RAG 检索增强生成 (RAG)。</mark>
 
 ### Day 3: Agents
 
@@ -290,6 +331,20 @@ On first use in a chapter, the Chinese keeps the English term. This table is the
 | Autonomous Agent | <mark>自主智能体 (Autonomous Agent)</mark> |
 | Model | <mark>模型 (Model)</mark> |
 | LLM | <mark>大语言模型 (LLM)</mark> |
+| Prompt | <mark>提示 (Prompt)</mark> |
+| Prompt Engineering | <mark>提示工程 (Prompt Engineering)</mark> |
+| Token | <mark>词元 (token)</mark> |
+| Temperature | <mark>温度 (temperature)</mark> |
+| Sampling | <mark>采样 (Sampling)</mark> |
+| Zero-shot | <mark>零样本 (zero-shot)</mark> |
+| One-shot | <mark>单样本 (one-shot)</mark> |
+| Few-shot | <mark>少样本 (few-shot)</mark> |
+| Chain of Thought / CoT | <mark>思维链 (Chain of Thought, CoT)</mark> |
+| Tree of Thoughts / ToT | <mark>思维树 (Tree of Thoughts, ToT)</mark> |
+| Self-consistency | <mark>自洽 (self-consistency)</mark> |
+| Step-back prompting | <mark>后退提示 (step-back prompting)</mark> |
+| ReAct | <mark>推理与行动 (Reason and Act, ReAct)</mark> |
+| Hallucination | <mark>幻觉 (hallucination)</mark> |
 | Tools / Tool Use | <mark>工具 (Tools) / 工具使用 (Tool Use)</mark> |
 | Orchestration | <mark>编排 (Orchestration)</mark> |
 | Orchestrator | <mark>编排者 (Orchestrator)</mark> |
