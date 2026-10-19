@@ -190,3 +190,37 @@ Image index: [whitepaper-agent-tools-and-interoperability-with-mcp/chapters/imag
 Terms for this paper, on first use in a chapter: Tool calling 工具调用 (tool calling), Function calling 函数调用 (function calling), Foundation model 基础模型 (foundation model), Function Tool 函数工具 (Function Tool), Built-in tool 内置工具 (built-in tool), Agent Tool 智能体工具 (Agent Tool), Host 宿主 (Host), Client 客户端 (Client), Server 服务器 (Server), Resource 资源 (Resource), Prompt 提示 (Prompt), Sampling 采样 (Sampling), Elicitation 征询 (Elicitation), Root 根 (Root), Tool Shadowing 工具遮蔽 (Tool Shadowing), Confused deputy 混淆代理人 (confused deputy), Dynamic Capability Injection 动态能力注入 (Dynamic Capability Injection), Agent Identity 智能体身份 (Agent Identity), Agent Gateway 智能体网关 (Agent Gateway), Agent Registry 智能体注册表 (Agent Registry).
 
 <mark>本文术语在章节内首次出现时保留英文：Tool calling 工具调用 (tool calling)、Function calling 函数调用 (function calling)、Foundation model 基础模型 (foundation model)、Function Tool 函数工具 (Function Tool)、Built-in tool 内置工具 (built-in tool)、Agent Tool 智能体工具 (Agent Tool)、Host 宿主 (Host)、Client 客户端 (Client)、Server 服务器 (Server)、Resource 资源 (Resource)、Prompt 提示 (Prompt)、Sampling 采样 (Sampling)、Elicitation 征询 (Elicitation)、Root 根 (Root)、Tool Shadowing 工具遮蔽 (Tool Shadowing)、Confused deputy 混淆代理人 (confused deputy)、Dynamic Capability Injection 动态能力注入 (Dynamic Capability Injection)、Agent Identity 智能体身份 (Agent Identity)、Agent Gateway 智能体网关 (Agent Gateway)、Agent Registry 智能体注册表 (Agent Registry)。</mark>
+
+## Agents
+
+<mark>智能体</mark>
+
+Source: `whitepaper-agents/Newwhitepaper_Agents2.pdf` (September 2024, 42 pages). Authors: Julia Wiesinger, Patrick Marlow, and Vladimir Vuskovic. Curators and editors: Antonio Gulli, Anant Nawalgaria, and Grace Mollison. Technical writer: Joey Haymaker. Designer: Michael Lanning.
+
+<mark>原文：`whitepaper-agents/Newwhitepaper_Agents2.pdf`（2024 年 9 月，42 页）。作者：Julia Wiesinger、Patrick Marlow、Vladimir Vuskovic。策划与编辑：Antonio Gulli、Anant Nawalgaria、Grace Mollison。技术写作：Joey Haymaker。设计师：Michael Lanning。</mark>
+
+The printed document has no Figure 6, and code samples keep the original snippet numbers (1, then 5–9). The Agents vs. models chart and the Tools recap are vector tables, written as Markdown tables.
+
+<mark>印刷本没有图 6，代码示例保留原文片段编号（1，然后是 5–9）。「智能体与模型」对照和「工具回顾」是矢量表格，已写成 Markdown 表。</mark>
+
+| <mark>章节</mark> | <mark>文件</mark> | <mark>原文页码</mark> | <mark>图片</mark> | <mark>状态</mark> |
+| --- | --- | --- | --- | --- |
+| <mark>标题与目录</mark> | [00-Title-and-Contents.md](whitepaper-agents/00-Title-and-Contents.md) | 1–3 | 0 | <mark>完成</mark> |
+| 1. Introduction | [01-Introduction.md](whitepaper-agents/01-Introduction.md) | 4 | 0 | <mark>完成</mark> |
+| 2. What is an agent? | [02-What-is-an-Agent.md](whitepaper-agents/02-What-is-an-Agent.md) | 5–12 | 2 | <mark>完成</mark> |
+| 3. Tools: Extensions | [03-Tools-Extensions.md](whitepaper-agents/03-Tools-Extensions.md) | 12–18 | 3 | <mark>完成</mark> |
+| 4. Tools: Functions | [04-Tools-Functions.md](whitepaper-agents/04-Tools-Functions.md) | 18–26 | 3 | <mark>完成</mark> |
+| 5. Tools: Data stores | [05-Tools-Data-Stores.md](whitepaper-agents/05-Tools-Data-Stores.md) | 27–32 | 5 | <mark>完成</mark> |
+| 6. Targeted learning | [06-Enhancing-Model-Performance.md](whitepaper-agents/06-Enhancing-Model-Performance.md) | 33–34 | 0 | <mark>完成</mark> |
+| 7. LangChain quick start | [07-Agent-Quick-Start-with-LangChain.md](whitepaper-agents/07-Agent-Quick-Start-with-LangChain.md) | 35–37 | 0 | <mark>完成</mark> |
+| 8. Vertex AI agents | [08-Production-Applications-with-Vertex-AI.md](whitepaper-agents/08-Production-Applications-with-Vertex-AI.md) | 38–39 | 1 | <mark>完成</mark> |
+| 9. Summary | [09-Summary.md](whitepaper-agents/09-Summary.md) | 40–41 | 0 | <mark>完成</mark> |
+| 10. Endnotes | [10-Endnotes.md](whitepaper-agents/10-Endnotes.md) | 42 | 0 | <mark>完成</mark> |
+
+Image index: [whitepaper-agents/chapters/image_index.md](whitepaper-agents/chapters/image_index.md). All 14 figures are placed in the chapter files.
+
+<mark>图片索引：[whitepaper-agents/chapters/image_index.md](whitepaper-agents/chapters/image_index.md)。14 张正文图均已放入对应章节。</mark>
+
+Terms for this paper, on first use in a chapter: Cognitive Architecture 认知架构 (Cognitive Architecture), Orchestration Layer 编排层 (Orchestration Layer), Extension 扩展 (Extension), Function 函数 (Function), Function Calling 函数调用 (Function Calling), Data Store 数据存储 (Data Store), Plugin 插件 (Plugin), Chain-of-Thought 思维链 (Chain-of-Thought), Tree-of-Thoughts 思维树 (Tree-of-Thoughts), In-context Learning 上下文学习 (In-context Learning), Fine-tuning 微调 (Fine-tuning), Foundational model 基础模型 (foundational model), Code Interpreter 代码解释器 (Code Interpreter), Example Store 示例存储 (Example Store), RAG 检索增强生成 (RAG), Embedding 嵌入 (embedding), HITL 人在回路 (Human-in-the-Loop, HITL).
+
+<mark>本文术语在章节内首次出现时保留英文：Cognitive Architecture 认知架构 (Cognitive Architecture)、Orchestration Layer 编排层 (Orchestration Layer)、Extension 扩展 (Extension)、Function 函数 (Function)、Function Calling 函数调用 (Function Calling)、Data Store 数据存储 (Data Store)、Plugin 插件 (Plugin)、Chain-of-Thought 思维链 (Chain-of-Thought)、Tree-of-Thoughts 思维树 (Tree-of-Thoughts)、In-context Learning 上下文学习 (In-context Learning)、Fine-tuning 微调 (Fine-tuning)、Foundational model 基础模型 (foundational model)、Code Interpreter 代码解释器 (Code Interpreter)、Example Store 示例存储 (Example Store)、RAG 检索增强生成 (RAG)、Embedding 嵌入 (embedding)、HITL 人在回路 (Human-in-the-Loop, HITL)。</mark>
