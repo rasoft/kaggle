@@ -106,6 +106,40 @@ On first use in a chapter, the Chinese keeps the English term. This table is the
 | Co-load | <mark>共同加载 (co-load)</mark> |
 | Runbook | <mark>运维手册 (runbook)</mark> |
 
+## The New SDLC With Vibe Coding
+
+<mark>氛围编码下的新软件开发生命周期</mark>
+
+Source: `whitepaper-the-new-SDLC-with-vibe-coding/Day_1_v3.pdf` (May 2026, 51 pages). Authors: Addy Osmani, Shubham Saboo, and Sokratis Kartakis. Content contributors: Elia Secchi, Julia Wiesinger, and Anant Nawalgaria. Curators and editors: Anant Nawalgaria. Designer: Michael Lanning.
+
+<mark>原文：`whitepaper-the-new-SDLC-with-vibe-coding/Day_1_v3.pdf`（2026 年 5 月，51 页）。作者：Addy Osmani、Shubham Saboo、Sokratis Kartakis。内容贡献者：Elia Secchi、Julia Wiesinger、Anant Nawalgaria。策划与编辑：Anant Nawalgaria。设计师：Michael Lanning。</mark>
+
+Table 1 is a vector table, written as a Markdown table. The equation on page 26 and Snippet 1 are kept in the chapter files. Ten figures are placed at their source positions.
+
+<mark>表 1 是矢量表格，已写成 Markdown 表。第 26 页的等式和片段 1 保留在章节文件里。10 张图按原文位置放入。</mark>
+
+| <mark>章节</mark> | <mark>文件</mark> | <mark>原文页码</mark> | <mark>图片</mark> | <mark>状态</mark> |
+| --- | --- | --- | --- | --- |
+| <mark>标题与目录</mark> | [00-Title-and-Contents.md](whitepaper-the-new-SDLC-with-vibe-coding/00-Title-and-Contents.md) | 1–5 | 0 | <mark>完成</mark> |
+| 1. Introduction | [01-Introduction.md](whitepaper-the-new-SDLC-with-vibe-coding/01-Introduction.md) | 6–9 | 1 | <mark>完成</mark> |
+| 2. Syntax to intent | [02-The-Shift-from-Syntax-to-Intent.md](whitepaper-the-new-SDLC-with-vibe-coding/02-The-Shift-from-Syntax-to-Intent.md) | 10–18 | 3 | <mark>完成</mark> |
+| 3. The new SDLC | [03-The-New-Software-Development-Life-Cycle.md](whitepaper-the-new-SDLC-with-vibe-coding/03-The-New-Software-Development-Life-Cycle.md) | 19–25 | 2 | <mark>完成</mark> |
+| 4. Harness Engineering | [04-Harness-Engineering.md](whitepaper-the-new-SDLC-with-vibe-coding/04-Harness-Engineering.md) | 26–31 | 2 | <mark>完成</mark> |
+| 5. Conductors and orchestrators | [05-Conductors-and-Orchestrators.md](whitepaper-the-new-SDLC-with-vibe-coding/05-Conductors-and-Orchestrators.md) | 31–34 | 1 | <mark>完成</mark> |
+| 6. Coding agents in practice | [06-Coding-Agents-in-Practice.md](whitepaper-the-new-SDLC-with-vibe-coding/06-Coding-Agents-in-Practice.md) | 35–39 | 0 | <mark>完成</mark> |
+| 7. Economics | [07-The-Economics-of-AI-Development.md](whitepaper-the-new-SDLC-with-vibe-coding/07-The-Economics-of-AI-Development.md) | 39–42 | 1 | <mark>完成</mark> |
+| 8. Where to start | [08-Where-to-Start.md](whitepaper-the-new-SDLC-with-vibe-coding/08-Where-to-Start.md) | 43–46 | 0 | <mark>完成</mark> |
+| 9. Conclusion | [09-Conclusion.md](whitepaper-the-new-SDLC-with-vibe-coding/09-Conclusion.md) | 47–48 | 0 | <mark>完成</mark> |
+| Endnotes | [10-Endnotes.md](whitepaper-the-new-SDLC-with-vibe-coding/10-Endnotes.md) | 49–51 | 0 | <mark>完成</mark> |
+
+Image index: [whitepaper-the-new-SDLC-with-vibe-coding/chapters/image_index.md](whitepaper-the-new-SDLC-with-vibe-coding/chapters/image_index.md). All 10 figures are placed in the chapter files.
+
+<mark>图片索引：[whitepaper-the-new-SDLC-with-vibe-coding/chapters/image_index.md](whitepaper-the-new-SDLC-with-vibe-coding/chapters/image_index.md)。10 张正文图均已放入对应章节。</mark>
+
+Terms for this paper, on first use in a chapter: SDLC 软件开发生命周期 (SDLC), Vibe Coding 氛围编码 (Vibe Coding), Agentic Engineering 智能体工程 (Agentic Engineering), Agent 智能体 (Agent), Coding Agent 编码智能体 (Coding Agent), Model 模型 (Model), Tools 工具 (Tools), Memory 记忆 (Memory), Orchestration 编排 (Orchestration), Harness 驾驭层 (Harness), Conductor 指挥 (Conductor), Orchestrator 编排者 (Orchestrator), Context Engineering 上下文工程 (Context Engineering), Factory Model 工厂模型 (Factory Model), Guardrails 护栏 (Guardrails), Evaluation 评估 (Evaluation), Model Routing 模型路由 (Model Routing), MCP 模型上下文协议 (Model Context Protocol, MCP), A2A 智能体对智能体 (Agent2Agent, A2A), CapEx 资本支出 (CapEx), OpEx 运营支出 (OpEx), TCO 总拥有成本 (TCO).
+
+<mark>本文术语在章节内首次出现时保留英文：SDLC 软件开发生命周期 (SDLC)、Vibe Coding 氛围编码 (Vibe Coding)、Agentic Engineering 智能体工程 (Agentic Engineering)、Agent 智能体 (Agent)、Coding Agent 编码智能体 (Coding Agent)、Model 模型 (Model)、Tools 工具 (Tools)、Memory 记忆 (Memory)、Orchestration 编排 (Orchestration)、Harness 驾驭层 (Harness)、Conductor 指挥 (Conductor)、Orchestrator 编排者 (Orchestrator)、Context Engineering 上下文工程 (Context Engineering)、Factory Model 工厂模型 (Factory Model)、Guardrails 护栏 (Guardrails)、Evaluation 评估 (Evaluation)、Model Routing 模型路由 (Model Routing)、MCP 模型上下文协议 (Model Context Protocol, MCP)、A2A 智能体对智能体 (Agent2Agent, A2A)、CapEx 资本支出 (CapEx)、OpEx 运营支出 (OpEx)、TCO 总拥有成本 (TCO)。</mark>
+
 ## Introduction to Agents
 
 <mark>智能体入门</mark>
