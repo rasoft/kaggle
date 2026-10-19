@@ -10,7 +10,7 @@ Google's Agents CLI<sup>17</sup> in Agent Platform is a CLI and skills package f
 
 <mark>Agent Platform 里的 Google Agents CLI<sup>17</sup> 是一套 CLI 和技能包，用来在 Google Cloud 上构建、评估和部署 AI 智能体 (Agent)。智能体用 Google 的 Agent Development Kit（ADK）构建，Agents CLI 处理周围的一切：脚手架、评估 (Evaluation)、部署和可观测性。</mark>
 
-![Agents CLI install flow](images/image_005_page_29.png)
+![Agents CLI install flow](image_005_page_29.png)
 
 <mark>[图片_005：Agents CLI 安装流程 - 第 29 页]</mark>
 
@@ -52,7 +52,7 @@ This is the architectural insight behind everything that follows. As foundation 
 
 <mark>这是后面一切内容背后的架构洞见。当基础模型在基线推理上收敛，自主可靠性的差异化就变成模型周围的确定性工程；而在这套工程内部，被组合、被复用的单位就是技能。</mark>
 
-![The demo-to-deploy confidence gap](images/image_006_page_31.png)
+![The demo-to-deploy confidence gap](image_006_page_31.png)
 
 <mark>[图片_006：从演示到部署的信心落差 - 第 31 页]</mark>
 
@@ -128,7 +128,7 @@ Context Rot (Chroma Research, 2025)<sup>20</sup>. Across 18 frontier models; Cla
 
 <mark>上下文腐烂（Chroma Research，2025）<sup>20</sup>。在 18 个前沿模型上——Claude 4 Opus 与 Sonnet、Gemini 2.5、Qwen3——输入变长时表现下降，即便任务难度保持不变。每个模型都会变差；当相关内容和干扰项难以区分时，变差得更快。真实智能体上下文里典型的噪声（工具输出、半相关的检索、中间推理）属于最糟的那一类。</mark>
 
-![Context rot as prompt size grows](images/image_007_page_33.png)
+![Context rot as prompt size grows](image_007_page_33.png)
 
 <mark>[图片_007：提示变长时的上下文腐烂 - 第 33 页]</mark>
 
@@ -150,7 +150,7 @@ The math is worth showing. Consider an agent with fifty distinct workflows. As a
 
 <mark>这道算术值得写出来。考虑一个有 50 条不同工作流的智能体。做成一份系统提示词，它每一轮加载 15,000 token。做成技能库，它加载约 4,000 token 的描述，加上当前活跃技能约 2,000 token 的正文，合计约 6,000 token，其余 49 份正文留在磁盘上。Anthropic 发表过例子：把一条工作流改成技能后，活跃上下文从大约 150,000 token 降到 2,000，降幅超过 98%。</mark>
 
-![Token economics of one prompt versus a skill library](images/image_008_page_34.png)
+![Token economics of one prompt versus a skill library](image_008_page_34.png)
 
 <mark>[图片_008：一份大提示词与技能库的 token 经济学 - 第 34 页]</mark>
 

@@ -129,7 +129,7 @@ Traditional Integration:               MCP Interoperability:
 
 <mark>这件事为什么重要？</mark>
 
-![Integration complexity equals O of N plus M](2026/whitepaper-agent-tools-and-interoperability/images/image_005_page_14.png)
+![Integration complexity equals O of N plus M](2026_5-day-agents-vibecoding/d2_whitepaper-agent-tools-and-interoperability/images/image_005_page_14.png)
 
 <mark>集成复杂度 = O(N + M)。</mark>
 

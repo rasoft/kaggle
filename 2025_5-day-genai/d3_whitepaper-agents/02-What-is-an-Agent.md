@@ -10,7 +10,7 @@ In order to understand the inner workings of an agent, let’s first introduce t
 
 <mark>要理解智能体内部如何运作，先看驱动它的行为、行动和决策的基础组件。这些组件合在一起，可以称为认知架构 (Cognitive Architecture)。把这些组件以不同方式搭配，就能得到许多种架构。就核心功能而言，智能体的认知架构有三个必要组件，如图 1 所示。</mark>
 
-![General agent architecture: orchestration, model, and tools inside the agent runtime](2024/whitepaper-agents/images/image_001_page_6.png)
+![General agent architecture: orchestration, model, and tools inside the agent runtime](2025_5-day-genai/d3_whitepaper-agents/images/image_001_page_6.png)
 
 <mark>图 1：智能体的一般架构与组件。用户查询进入智能体运行时；编排层包含画像、目标与指令，短期与长期记忆，以及基于模型的推理 / 规划；旁边是模型与工具；智能体响应返回给用户。</mark>
 

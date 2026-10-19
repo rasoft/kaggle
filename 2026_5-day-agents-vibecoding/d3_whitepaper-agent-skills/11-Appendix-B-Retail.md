@@ -26,7 +26,7 @@ Skills capture this knowledge in a form that the company's customer-facing syste
 
 <mark>架构长什么样</mark>
 
-![A skills-first retail architecture](images/image_011_page_54.png)
+![A skills-first retail architecture](image_011_page_54.png)
 
 <mark>[图片_011：技能优先的零售架构 - 第 54 页]</mark>
 

@@ -48,7 +48,7 @@ To overcome these bottlenecks one can follow a similar blueprint laid out by ML 
 
 <mark>要越过这些瓶颈，可以沿用机器学习工程师和软件工程师多年前画出的那张蓝图。早期 AutoML 模型证明了商业价值之后，团队很少让那些自动生成的黑箱继续跑核心业务。要到生产规模，他们必须把黑箱拆成可观察、可维护的阶段：数据版本、特征库、漂移检测。把组件专门化，用的是系统设计的一条基本定律：专门化是一种扩张机制。</mark>
 
-![Figure 3: Monolithic Multi-agent Architecture](2026/whitepaper-agent-tools-and-interoperability/images/image_006_page_19.png)
+![Figure 3: Monolithic Multi-agent Architecture](2026_5-day-agents-vibecoding/d2_whitepaper-agent-tools-and-interoperability/images/image_006_page_19.png)
 
 <mark>图 3：单体多智能体架构。同一个进程里，协调者带着自己的系统指令和工具，把任务分给多个专家。每个专家有自己的系统指令、工具子集和模型，但它们不跨网络边界通信。</mark>
 
@@ -258,7 +258,7 @@ Packaging an agent for the A2A ecosystem involves three core steps:
 
 <mark>**建立 A2A 端点：** 执行器必须暴露为一个符合 A2A 的端点。</mark>
 
-![Figure 5: Supply-side exposure and demand-side consumption](2026/whitepaper-agent-tools-and-interoperability/images/image_008_page_27.png)
+![Figure 5: Supply-side exposure and demand-side consumption](2026_5-day-agents-vibecoding/d2_whitepaper-agent-tools-and-interoperability/images/image_008_page_27.png)
 
 <mark>图 5：供给侧把原生 AI 智能体暴露为 A2A 服务器，需求侧通过 A2A 客户端消费它。智能体坐在 A2A 执行器里，执行器接到 A2A 服务器，再与 A2A 客户端相连。</mark>
 

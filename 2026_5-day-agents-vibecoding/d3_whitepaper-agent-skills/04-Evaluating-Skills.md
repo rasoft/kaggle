@@ -34,7 +34,7 @@ Trigger failures surface in routing logs; execution failures in output quality; 
 
 <mark>触发失败出现在路由日志里；执行失败出现在输出质量里；token 预算失败出现在真实的上下文负载下；回归失败只有在整个技能库一起被操练时才会出现。</mark>
 
-![Four failure modes of Agent Skills](images/image_001_page_19.png)
+![Four failure modes of Agent Skills](image_001_page_19.png)
 
 <mark>[图片_001：智能体技能的四种失败模式 - 第 19 页]</mark>
 
@@ -80,7 +80,7 @@ Table 1: The Evaluation Toolkit, outlining five complementary testing patterns d
 
 <mark>触发是第一道门</mark>
 
-![Metadata as a thin routing layer](images/image_002_page_21.png)
+![Metadata as a thin routing layer](image_002_page_21.png)
 
 <mark>[图片_002：元数据作为薄路由层 - 第 21 页]</mark>
 
@@ -138,7 +138,7 @@ The Google ADK eval framework<sup>10</sup> offers three trajectory scoring modes
 
 <mark>Google ADK 评估框架<sup>10</sup> 提供三种轨迹评分模式：EXACT（精确顺序）、IN_ORDER（有序子集）和 ANY_ORDER（无序子集）。轨迹校验应对齐技能层级：只读技能可以用 ANY_ORDER，允许执行的技能需要 IN_ORDER 或 EXACT。</mark>
 
-![Evaluation-driven development inversion path](images/image_003_page_23.png)
+![Evaluation-driven development inversion path](image_003_page_23.png)
 
 <mark>[图片_003：评估驱动开发的倒置路径 - 第 23 页]</mark>
 
@@ -210,7 +210,7 @@ MCPVerse<sup>12</sup> noted an 18.2% accuracy drop in Claude-4-Sonnet due to too
 
 <mark>MCPVerse<sup>12</sup> 指出，由于工具增殖和上下文注意力竞争，Claude-4-Sonnet 的准确率下降了 18.2%。此外，Chroma Research（2025）<sup>13</sup> 发现，所有前沿模型都会随着输入变长而变差，在共同加载的噪声妨碍时尤其如此。</mark>
 
-![Performance gap between one skill and fifteen co-loaded skills](images/image_004_page_26.png)
+![Performance gap between one skill and fifteen co-loaded skills](image_004_page_26.png)
 
 <mark>[图片_004：单个技能与 15 个共同加载技能的性能差距 - 第 26 页]</mark>
 

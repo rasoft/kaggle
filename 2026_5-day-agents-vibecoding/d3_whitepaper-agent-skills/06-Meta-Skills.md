@@ -18,7 +18,7 @@ This is the meta-skills territory. Skills whose job is to author, evaluate, or i
 
 <mark>2. 从轨迹辅助撰写。不要请人描述工作流，而是看智能体成功做几次，再把那条轨迹变成技能。skill-creator 工作流通过基于轨迹的收获直接支持这一点。人的工作从写技能，变成确认收获来的版本抓住了正确的步骤。</mark>
 
-![Trace-to-skill authoring loop](images/image_009_page_36.png)
+![Trace-to-skill authoring loop](image_009_page_36.png)
 
 <mark>[图片_009：从轨迹到技能的撰写循环 - 第 36 页]</mark>
 
@@ -30,7 +30,7 @@ Figure 9: The step-by-step loop demonstrates how real, successful production his
 
 <mark>3. 改进。这类技能拿一个已有技能加上一组失败的评估用例，并提议修改。Saboo 的 SkillOptimizer<sup>24</sup> 和 Anthropic 的描述优化循环都是例子。另一个是 Karpathy 的 autoresearch 模式<sup>25</sup>：智能体对目标文件提议一处修改，跑一个有界实验，只有指标变好才保留修改。</mark>
 
-![Evaluation gating before a skill change is committed](images/image_010_page_37.png)
+![Evaluation gating before a skill change is committed](image_010_page_37.png)
 
 <mark>[图片_010：技能修改提交前的评估门禁 - 第 37 页]</mark>
 

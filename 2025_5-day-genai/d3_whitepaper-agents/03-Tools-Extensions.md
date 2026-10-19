@@ -51,7 +51,7 @@ Extensions can be crafted independently of the agent, but should be provided as 
 
 <mark>扩展可以独立于智能体来制作，但应当作为智能体配置的一部分提供。运行时，智能体利用模型和示例来决定哪一个扩展（如果有的话）适合解决用户的查询。这突出了扩展的一项关键优势：内置的示例类型，使智能体能动态选出最适合该任务的扩展。</mark>
 
-![One-to-many relationship between agents, extensions, and APIs](2024/whitepaper-agents/images/image_005_page_14.png)
+![One-to-many relationship between agents, extensions, and APIs](2025_5-day-genai/d3_whitepaper-agents/images/image_005_page_14.png)
 
 <mark>图 5：智能体、扩展与 API 之间的一对多关系。智能体包含推理循环和模型，经工具分别连到 Flights、Maps、Weather 三个扩展，再各自连到对应的 API。</mark>
 

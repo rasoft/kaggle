@@ -21,7 +21,7 @@ Using our Google Flights example again, a simple setup for functions might look 
 
 <mark>再以 Google Flights 为例，函数的一种简单配置可能像图 7 那样。</mark>
 
-![How functions interact with external APIs](2024/whitepaper-agents/images/image_006_page_19.png)
+![How functions interact with external APIs](2025_5-day-genai/d3_whitepaper-agents/images/image_006_page_19.png)
 
 <mark>图 7：函数如何与外部 API 交互？智能体与函数双向连接，函数与 Google Flights API 之间仍是问号。示例给出三个已知函数规格（get_flights、get_map、get_weather）、调用说明，以及返回的 function_call。</mark>
 

@@ -12,7 +12,7 @@ In Day 1, we outlined the paradigm shift from traditional software development t
 
 <mark>在第 1 天，我们勾勒了从传统软件开发到智能体工程 (Agentic Engineering) 的范式转移，并引入工厂模型 (Factory Model)：开发者的主要产出不再是原始语法，而是那个生产代码的系统。我们定义了这套系统的核心架构：</mark>
 
-![Agent equals Model plus Harness](2026/whitepaper-agent-tools-and-interoperability/images/image_001_page_6.png)
+![Agent equals Model plus Harness](2026_5-day-agents-vibecoding/d2_whitepaper-agent-tools-and-interoperability/images/image_001_page_6.png)
 
 <mark>智能体 = 模型 (Model) + 驾驭层 (Harness)。</mark>
 

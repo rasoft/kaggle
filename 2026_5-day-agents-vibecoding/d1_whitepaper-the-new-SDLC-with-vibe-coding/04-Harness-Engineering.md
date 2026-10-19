@@ -26,7 +26,7 @@ A raw model is not an agent. It becomes one once a harness gives it state, tool 
 
 <mark>裸模型不是智能体。驾驭层给它状态、工具执行、反馈回路和可强制的约束之后，它才成为智能体。开发者在使用 Claude Code、Cursor、Codex、Antigravity、Aider 或 Cline 时体验到的行为，主要由驾驭层做什么决定，不只是底下是哪一个模型。</mark>
 
-![Figure 7: Harness Anatomy](2026/whitepaper-the-new-SDLC-with-vibe-coding/images/image_008_page_27.png)
+![Figure 7: Harness Anatomy](2026_5-day-agents-vibecoding/d1_whitepaper-the-new-SDLC-with-vibe-coding/images/image_008_page_27.png)
 
 <mark>图 7：驾驭层解剖。智能体 = 模型 + 驾驭层。模型约占 10%，驾驭层约占 90%。核心是 LLM，周围是指令与规则文件、工具与 MCP 服务器、编排逻辑、护栏与钩子。向外是框架层（智能在这里被塑造）、开发者界面（CLI / IDE 集成）、云基础设施（托管运行时、部署配置、服务与伸缩），两侧还有会话与记忆存储、评估与测试、可观测性与追踪。模型是引擎。驾驭层是车、路和交通规则。</mark>
 
