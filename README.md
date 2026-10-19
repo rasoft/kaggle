@@ -158,3 +158,35 @@ Source: `whitepaper-agent-tools-and-interoperability/Agent Tools & Interoperabil
 Image index: [whitepaper-agent-tools-and-interoperability/chapters/image_index.md](whitepaper-agent-tools-and-interoperability/chapters/image_index.md). All 11 figures are placed in the chapter files.
 
 <mark>图片索引：[whitepaper-agent-tools-and-interoperability/chapters/image_index.md](whitepaper-agent-tools-and-interoperability/chapters/image_index.md)。11 张正文图均已放入对应章节。</mark>
+
+## Agent Tools & Interoperability with MCP
+
+<mark>智能体工具与互操作性：模型上下文协议</mark>
+
+Source: `whitepaper-agent-tools-and-interoperability-with-mcp/2025_Day_2_Rewrite_v1_AgentTools.pdf` (Updated May 2026, 56 pages). Authors: Mike Styer, Kanchana Patlolla, Madhurranjan Mohaan, Santiago Díaz, and Anant Nawalgaria. Curators and editors: Anant Nawalgaria, Kanchana Patlolla. Designer: Michael Lanning.
+
+<mark>原文：`whitepaper-agent-tools-and-interoperability-with-mcp/2025_Day_2_Rewrite_v1_AgentTools.pdf`（2026 年 5 月更新，56 页）。作者：Mike Styer、Kanchana Patlolla、Madhurranjan Mohaan、Santiago Díaz、Anant Nawalgaria。策划与编辑：Anant Nawalgaria、Kanchana Patlolla。设计师：Michael Lanning。</mark>
+
+The printed table of contents is one page ahead of the footer page numbers. The progress table uses the footer page numbers.
+
+<mark>印刷目录的页码比页脚页码大 1。进度表按页脚页码标注。</mark>
+
+| <mark>章节</mark> | <mark>文件</mark> | <mark>原文页码</mark> | <mark>图片</mark> | <mark>状态</mark> |
+| --- | --- | --- | --- | --- |
+| <mark>标题与目录</mark> | [00-Title-and-Contents.md](whitepaper-agent-tools-and-interoperability-with-mcp/00-Title-and-Contents.md) | 1–5 | 0 | <mark>完成</mark> |
+| 1. Introduction | [01-Introduction.md](whitepaper-agent-tools-and-interoperability-with-mcp/01-Introduction.md) | 6–7 | 0 | <mark>完成</mark> |
+| 2. Tools and tool calling | [02-Tools-and-Tool-Calling.md](whitepaper-agent-tools-and-interoperability-with-mcp/02-Tools-and-Tool-Calling.md) | 8–20 | 1 | <mark>完成</mark> |
+| 3. Understanding MCP | [03-Understanding-the-Model-Context-Protocol.md](whitepaper-agent-tools-and-interoperability-with-mcp/03-Understanding-the-Model-Context-Protocol.md) | 20–34 | 2 | <mark>完成</mark> |
+| 4. For and Against | [04-MCP-For-and-Against.md](whitepaper-agent-tools-and-interoperability-with-mcp/04-MCP-For-and-Against.md) | 35–40 | 0 | <mark>完成</mark> |
+| 5. Security in MCP | [05-Security-in-MCP.md](whitepaper-agent-tools-and-interoperability-with-mcp/05-Security-in-MCP.md) | 41–49 | 0 | <mark>完成</mark> |
+| 6. Conclusion | [06-Conclusion.md](whitepaper-agent-tools-and-interoperability-with-mcp/06-Conclusion.md) | 49–50 | 0 | <mark>完成</mark> |
+| Appendix | [07-Appendix.md](whitepaper-agent-tools-and-interoperability-with-mcp/07-Appendix.md) | 50–52 | 0 | <mark>完成</mark> |
+| Endnotes | [08-Endnotes.md](whitepaper-agent-tools-and-interoperability-with-mcp/08-Endnotes.md) | 53–56 | 0 | <mark>完成</mark> |
+
+Image index: [whitepaper-agent-tools-and-interoperability-with-mcp/chapters/image_index.md](whitepaper-agent-tools-and-interoperability-with-mcp/chapters/image_index.md). All 3 figures are placed in the chapter files.
+
+<mark>图片索引：[whitepaper-agent-tools-and-interoperability-with-mcp/chapters/image_index.md](whitepaper-agent-tools-and-interoperability-with-mcp/chapters/image_index.md)。3 张正文图均已放入对应章节。</mark>
+
+Terms for this paper, on first use in a chapter: Tool calling 工具调用 (tool calling), Function calling 函数调用 (function calling), Foundation model 基础模型 (foundation model), Function Tool 函数工具 (Function Tool), Built-in tool 内置工具 (built-in tool), Agent Tool 智能体工具 (Agent Tool), Host 宿主 (Host), Client 客户端 (Client), Server 服务器 (Server), Resource 资源 (Resource), Prompt 提示 (Prompt), Sampling 采样 (Sampling), Elicitation 征询 (Elicitation), Root 根 (Root), Tool Shadowing 工具遮蔽 (Tool Shadowing), Confused deputy 混淆代理人 (confused deputy), Dynamic Capability Injection 动态能力注入 (Dynamic Capability Injection), Agent Identity 智能体身份 (Agent Identity), Agent Gateway 智能体网关 (Agent Gateway), Agent Registry 智能体注册表 (Agent Registry).
+
+<mark>本文术语在章节内首次出现时保留英文：Tool calling 工具调用 (tool calling)、Function calling 函数调用 (function calling)、Foundation model 基础模型 (foundation model)、Function Tool 函数工具 (Function Tool)、Built-in tool 内置工具 (built-in tool)、Agent Tool 智能体工具 (Agent Tool)、Host 宿主 (Host)、Client 客户端 (Client)、Server 服务器 (Server)、Resource 资源 (Resource)、Prompt 提示 (Prompt)、Sampling 采样 (Sampling)、Elicitation 征询 (Elicitation)、Root 根 (Root)、Tool Shadowing 工具遮蔽 (Tool Shadowing)、Confused deputy 混淆代理人 (confused deputy)、Dynamic Capability Injection 动态能力注入 (Dynamic Capability Injection)、Agent Identity 智能体身份 (Agent Identity)、Agent Gateway 智能体网关 (Agent Gateway)、Agent Registry 智能体注册表 (Agent Registry)。</mark>
