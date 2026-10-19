@@ -56,6 +56,7 @@ On first use in a chapter, the Chinese keeps the English term. This table is the
 | LLM | <mark>大语言模型 (LLM)</mark> |
 | Tools / Tool Use | <mark>工具 (Tools) / 工具使用 (Tool Use)</mark> |
 | Orchestration | <mark>编排 (Orchestration)</mark> |
+| Orchestrator | <mark>编排者 (Orchestrator)</mark> |
 | Reasoning | <mark>推理 (Reasoning)</mark> |
 | Planning | <mark>规划 (Planning)</mark> |
 | Memory | <mark>记忆 (Memory)</mark> |
@@ -70,6 +71,20 @@ On first use in a chapter, the Chinese keeps the English term. This table is the
 | Semantic Memory | <mark>语义记忆 (Semantic Memory)</mark> |
 | Meta-skill | <mark>元技能 (Meta-skill)</mark> |
 | MCP / Model Context Protocol | <mark>模型上下文协议 (Model Context Protocol, MCP)</mark> |
+| A2A / Agent-to-Agent | <mark>智能体对智能体 (Agent-to-Agent, A2A)</mark> |
+| A2UI / Agent-to-User Interface | <mark>智能体到界面 (Agent-to-User Interface, A2UI)</mark> |
+| AP2 / Agent Payments Protocol | <mark>智能体支付协议 (Agent Payments Protocol, AP2)</mark> |
+| UCP / Universal Commerce Protocol | <mark>通用商务协议 (Universal Commerce Protocol, UCP)</mark> |
+| Harness | <mark>驾驭层 (Harness)</mark> |
+| Vibe Coding / Vibe Coder | <mark>氛围编码 (Vibe Coding) / 氛围编码者 (Vibe Coder)</mark> |
+| Agentic Engineering | <mark>智能体工程 (Agentic Engineering)</mark> |
+| Agent Card | <mark>智能体名片 (Agent Card)</mark> |
+| Agent Registry | <mark>智能体注册表 (Agent Registry)</mark> |
+| Generative UI | <mark>生成式界面 (Generative UI)</mark> |
+| Canvas | <mark>画布 (Canvas)</mark> |
+| HITL | <mark>人在回路 (Human-in-the-Loop, HITL)</mark> |
+| AaaS | <mark>智能体即服务 (Agent-as-a-Service, AaaS)</mark> |
+| Mandate | <mark>授权委托 (Mandate)</mark> |
 | RAG | <mark>检索增强生成 (RAG)</mark> |
 | Trigger | <mark>触发 (Trigger)</mark> |
 | Evaluation | <mark>评估 (Evaluation)</mark> |
@@ -120,3 +135,26 @@ Image index: [whitepaper-introduction-to-agents/chapters/image_index.md](whitepa
 Terms for this paper, on first use in a chapter: Agent 智能体 (Agent), Agentic System 智能体系统 (Agentic System), Autonomous Agent 自主智能体 (Autonomous Agent), Predictive AI 预测性 AI (Predictive AI), Model 模型 (Model), Tools 工具 (Tools), Tool Use 工具使用 (Tool Use), Orchestration 编排 (Orchestration), LLM 大语言模型 (LLM), Reasoning 推理 (Reasoning), Planning 规划 (Planning), Memory 记忆 (Memory), Reflection 反思 (Reflection).
 
 <mark>本文术语在章节内首次出现时保留英文：Agent 智能体 (Agent)、Agentic System 智能体系统 (Agentic System)、Autonomous Agent 自主智能体 (Autonomous Agent)、Predictive AI 预测性 AI (Predictive AI)、Model 模型 (Model)、Tools 工具 (Tools)、Tool Use 工具使用 (Tool Use)、Orchestration 编排 (Orchestration)、LLM 大语言模型 (LLM)、Reasoning 推理 (Reasoning)、Planning 规划 (Planning)、Memory 记忆 (Memory)、Reflection 反思 (Reflection)。</mark>
+
+## Agent Tools & Interoperability
+
+<mark>智能体工具与互操作性</mark>
+
+Source: `whitepaper-agent-tools-and-interoperability/Agent Tools & Interoperability_Day_2.pdf` (May 2026, 49 pages). Authors: Kanchana Patlolla, Łukasz Olejniczak, and Pier Paolo Ippolito. Curators and editors: Anant Nawalgaria. Designer: Michael Lanning.
+
+<mark>原文：`whitepaper-agent-tools-and-interoperability/Agent Tools & Interoperability_Day_2.pdf`（2026 年 5 月，49 页）。作者：Kanchana Patlolla、Łukasz Olejniczak、Pier Paolo Ippolito。策划与编辑：Anant Nawalgaria。设计师：Michael Lanning。</mark>
+
+| <mark>章节</mark> | <mark>文件</mark> | <mark>原文页码</mark> | <mark>图片</mark> | <mark>状态</mark> |
+| --- | --- | --- | --- | --- |
+| <mark>标题与目录</mark> | [00-Title-and-Contents.md](whitepaper-agent-tools-and-interoperability/00-Title-and-Contents.md) | 1–5 | 0 | <mark>完成</mark> |
+| 1. Introduction | [01-Introduction.md](whitepaper-agent-tools-and-interoperability/01-Introduction.md) | 6–9 | 2 | <mark>完成</mark> |
+| 2. The Vibe Coder’s View of MCP | [02-The-Vibe-Coders-View-of-MCP.md](whitepaper-agent-tools-and-interoperability/02-The-Vibe-Coders-View-of-MCP.md) | 10–17 | 3 | <mark>完成</mark> |
+| 3. Agent-to-Agent (A2A) | [03-Agent-to-Agent-Interoperability.md](whitepaper-agent-tools-and-interoperability/03-Agent-to-Agent-Interoperability.md) | 17–31 | 4 | <mark>完成</mark> |
+| 4. Agent-to-UI (A2UI) | [04-Agent-to-UI-Interoperability.md](whitepaper-agent-tools-and-interoperability/04-Agent-to-UI-Interoperability.md) | 32–43 | 1 | <mark>完成</mark> |
+| 5. Agents and Commerce | [05-Agents-and-Commerce.md](whitepaper-agent-tools-and-interoperability/05-Agents-and-Commerce.md) | 43–47 | 1 | <mark>完成</mark> |
+| 6. Conclusion | [06-Conclusion.md](whitepaper-agent-tools-and-interoperability/06-Conclusion.md) | 47 | 0 | <mark>完成</mark> |
+| 7. Endnotes | [07-Endnotes.md](whitepaper-agent-tools-and-interoperability/07-Endnotes.md) | 48–49 | 0 | <mark>完成</mark> |
+
+Image index: [whitepaper-agent-tools-and-interoperability/chapters/image_index.md](whitepaper-agent-tools-and-interoperability/chapters/image_index.md). All 11 figures are placed in the chapter files.
+
+<mark>图片索引：[whitepaper-agent-tools-and-interoperability/chapters/image_index.md](whitepaper-agent-tools-and-interoperability/chapters/image_index.md)。11 张正文图均已放入对应章节。</mark>
