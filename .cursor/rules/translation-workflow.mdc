@@ -8,13 +8,13 @@ alwaysApply: true
 1. Read `chapters/chapter0X_*.txt`.
 2. Read that chapter's entries in `chapters/image_index.md`.
 3. Write `0X-Title.md` at the repo root.
-4. Wrap every Chinese span in `<mark>`.
-5. Replace each image marker in place, with English alt text and a Chinese `<mark>` caption.
+4. Write every Chinese span as plain text. Do not add `<mark>` tags.
+5. Replace each image marker in place, with English alt text and a plain Chinese caption.
 6. Update the README progress table.
 
 ## Review before finishing
 
-- Every Chinese span is inside `<mark>`.
+- No `<mark>` tags anywhere in the chapter.
 - Terms match the README dictionary.
 - Chinese/English and Chinese/number spacing is correct.
 - Major sections are split by `---`.

@@ -18,7 +18,7 @@ Replace it with an English image and a Chinese caption:
 ```markdown
 ![Agent Architecture Diagram](images/image_001_page_12_1.png)
 
-<mark>[图片_001：智能体架构图 - 第 12 页]</mark>
+[图片_001：智能体架构图 - 第 12 页]
 ```
 
 Counts: chapter 2 has 1 image, chapter 3 has 1, chapter 4 has 5, chapter 5 has 4.

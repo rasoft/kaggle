@@ -1,16 +1,16 @@
 ---
-description: Bilingual paragraph format and Chinese highlighting
+description: Bilingual paragraph format without highlight tags
 alwaysApply: true
 ---
 
 # Bilingual format
 
-Pair each English paragraph with its Chinese translation. Wrap every Chinese span in `<mark>`.
+Pair each English paragraph with its Chinese translation. Write the Chinese as plain Markdown. Do not wrap any Chinese span in `<mark>` or another highlight tag.
 
 ```markdown
 English paragraph.
 
-<mark>对应的中文段落。</mark>
+对应的中文段落。
 ```
 
 - Separate major sections with `---`.
@@ -22,4 +22,4 @@ Quality bar: faithful meaning, natural Chinese, consistent terms, valid Markdown
 
 ## Endnotes (chapter 7)
 
-Keep URLs, citation numbers, and technical references unchanged. Translate the descriptive text only, still inside `<mark>`.
+Keep URLs, citation numbers, and technical references unchanged. Translate the descriptive text only, as plain text with no `<mark>` tags.
