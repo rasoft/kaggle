@@ -11,6 +11,7 @@ This index lists the translated whitepapers from three Kaggle courses, in course
 目录
 
 - [2025 5-Day Gen AI](#2025-5-day-gen-ai)
+  - [Day 1: Foundational LLMs & Text Generation](#day-1-foundational-llms--text-generation)
   - [Day 1: Prompt Engineering](#day-1-prompt-engineering)
   - [Day 3: Agents](#day-3-agents)
   - [Day 3: Agents Companion](#day-3-agents-companion)
@@ -32,6 +33,40 @@ This index lists the translated whitepapers from three Kaggle courses, in course
 Directory: `2025_5-day-genai`. Course guide: [2025_5-day-genai/README.md](2025_5-day-genai/README.md). Kaggle: [5-day-genai](https://www.kaggle.com/learn-guide/5-day-genai).
 
 目录：`2025_5-day-genai`。课程说明：[2025_5-day-genai/README.md](2025_5-day-genai/README.md)。Kaggle：[5-day-genai](https://www.kaggle.com/learn-guide/5-day-genai)。
+
+### Day 1: Foundational LLMs & Text Generation
+
+第 1 天：基础大语言模型与文本生成
+
+Source: `2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/whitepaper_Foundational Large Language models & text generation_v2.pdf` (February 2025, 86 pages). Authors: Mohammadamin Barektain, Anant Nawalgaria, Daniel J. Mankowitz, Majd Al Merey, Yaniv Leviathan, Massimo Mascaro, Matan Kalman, Elena Buchatskaya, Aliaksei Severyn, Irina Sigler, and Antonio Gulli. Content contributors: Adam Sadvovsky, Yonghui Wu, Andrew Dai, Efi Kokiopolou, Chuck Sugnet, Aleksey Vlasenko, Erwin Huizenga, Aida Nematzadeh, Ira Ktena, Olivia Wiles, and Lavi Nigam. Curators and editors: Antonio Gulli, Anant Nawalgaria, and Grace Mollison. Technical writer: Mark Iverson. Designer: Michael Lanning.
+
+原文：`2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/whitepaper_Foundational Large Language models & text generation_v2.pdf`（2025 年 2 月，86 页）。作者：Mohammadamin Barektain、Anant Nawalgaria、Daniel J. Mankowitz、Majd Al Merey、Yaniv Leviathan、Massimo Mascaro、Matan Kalman、Elena Buchatskaya、Aliaksei Severyn、Irina Sigler、Antonio Gulli。内容贡献者：Adam Sadvovsky、Yonghui Wu、Andrew Dai、Efi Kokiopolou、Chuck Sugnet、Aleksey Vlasenko、Erwin Huizenga、Aida Nematzadeh、Ira Ktena、Olivia Wiles、Lavi Nigam。策划与编辑：Antonio Gulli、Anant Nawalgaria、Grace Mollison。技术写作：Mark Iverson。设计师：Michael Lanning。
+
+Cover art on pages 1–3 is decorative. Twelve content figures are placed in the chapter files. Figure 5 is two panels. Table 1 on page 44 is a vector table. The printed body calls the Gopher ablation Figure 4 and the Gemini diagram Figure 6; the captions are Figure 5 and Figure 7. Page 19 has a heading, Large Reasoning Models, that is not in the table of contents. The applications text says Snippet 3; the code caption says Snippet 2. Code snippets print typographic quotation marks; the translation uses straight quotes, and a path wrapped in the PDF is joined onto one line. Endnote 17 prints the page range as `27730-27744.-27744.` Endnotes 51–53 do not line up with the in-text numbers for nucleus sampling and context caching. The summary ends the prompts sentence with a stray `k`. A sentence about Gemini 2.0 Flash Thinking on page 59 refers to a picture that is not on the page. The sentence that introduces the applications section is also printed at the end of speculative decoding, before Batching and Parallelization.
+
+第 1–3 页的封面图形是装饰。12 张正文图已放入对应章节。图 5 是左右两幅。第 44 页的表 1 是矢量表格。正文把 Gopher 消融写成图 4、把 Gemini 示意图写成图 6，图注则是图 5 和图 7。第 19 页有标题「大型推理模型」，目录里没有。应用一节的正文写片段 3，代码图注写片段 2。代码片段印的是排版引号，译文改成直引号，并把页面上折行的路径接成一行。尾注 17 把页码印成 `27730-27744.-27744.`。尾注 51–53 与正文里核采样、上下文缓存的引用编号对不上。总结里「提示」那句结尾多了一个 `k`。第 59 页关于 Gemini 2.0 Flash Thinking 的句子提到一幅图，该页并没有这幅图。引出应用一节的那句话，在推测解码末尾、批处理与并行之前也印了一次。
+
+| 章节 | 文件 | 原文页码 | 图片 | 状态 |
+| --- | --- | --- | --- | --- |
+| 标题与目录 | [00-Title-and-Contents.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/00-Title-and-Contents.md) | 1–5 | 0 | 完成 |
+| 1. Introduction | [01-Introduction.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/01-Introduction.md) | 6–7 | 0 | 完成 |
+| 2. Why language models are important | [02-Why-Language-Models-Are-Important.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/02-Why-Language-Models-Are-Important.md) | 7 | 0 | 完成 |
+| 3. Large language models | [03-Large-Language-Models.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/03-Large-Language-Models.md) | 8–22 | 4 | 完成 |
+| 4. The evolution of transformers | [04-The-Evolution-of-Transformers.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/04-The-Evolution-of-Transformers.md) | 23–44 | 4 | 完成 |
+| 5. Fine-tuning | [05-Fine-Tuning-Large-Language-Models.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/05-Fine-Tuning-Large-Language-Models.md) | 45–51 | 1 | 完成 |
+| 6. Using large language models | [06-Using-Large-Language-Models.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/06-Using-Large-Language-Models.md) | 52–56 | 0 | 完成 |
+| 7. Accelerating inference | [07-Accelerating-Inference.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/07-Accelerating-Inference.md) | 57–67 | 3 | 完成 |
+| 8. Applications | [08-Applications.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/08-Applications.md) | 68–79 | 0 | 完成 |
+| 9. Summary | [09-Summary.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/09-Summary.md) | 80–81 | 0 | 完成 |
+| Endnotes | [10-Endnotes.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/10-Endnotes.md) | 82–86 | 0 | 完成 |
+
+Image index: [2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/chapters/image_index.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/chapters/image_index.md). All 12 figures are placed in the chapter files. Figure 5 counts as two image files.
+
+图片索引：[2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/chapters/image_index.md](2025_5-day-genai/d1_whitepaper-foundational-llm-and-text-generation/chapters/image_index.md)。12 张正文图均已放入对应章节。图 5 计为两个图片文件。
+
+Terms for this paper, on first use in a chapter: LLM 大语言模型 (LLM), Model 模型 (Model), Token 词元 (token), Transformer Transformer, Embedding 嵌入 (embedding), Attention 注意力 (attention), Fine-tuning 微调 (fine-tuning), Pre-training 预训练 (pre-training), Inference 推断 (inference), Reasoning 推理 (Reasoning), Prompt 提示 (Prompt), Prompt Engineering 提示工程 (Prompt Engineering), Sampling 采样 (Sampling), Temperature 温度 (temperature), Zero-shot 零样本 (zero-shot), Few-shot 少样本 (few-shot), Chain of Thought 思维链 (Chain-of-Thought), Tree of Thoughts 思维树 (Tree-of-Thoughts), MoE 混合专家 (Mixture of Experts, MoE), RLHF 基于人类反馈的强化学习 (Reinforcement Learning from Human Feedback, RLHF), SFT 监督微调 (Supervised Fine-Tuning, SFT), PEFT 参数高效微调 (Parameter-Efficient Fine-Tuning, PEFT), LoRA 低秩适配 (Low-Rank Adaptation, LoRA), RAG 检索增强生成 (Retrieval Augmented Generation, RAG), Quantization 量化 (quantization), Distillation 蒸馏 (distillation), Evaluation 评估 (Evaluation).
+
+本文术语在章节内首次出现时保留英文：LLM 大语言模型 (LLM)、Model 模型 (Model)、Token 词元 (token)、Transformer、Embedding 嵌入 (embedding)、Attention 注意力 (attention)、Fine-tuning 微调 (fine-tuning)、Pre-training 预训练 (pre-training)、Inference 推断 (inference)、Reasoning 推理 (Reasoning)、Prompt 提示 (Prompt)、Prompt Engineering 提示工程 (Prompt Engineering)、Sampling 采样 (Sampling)、Temperature 温度 (temperature)、Zero-shot 零样本 (zero-shot)、Few-shot 少样本 (few-shot)、Chain of Thought 思维链 (Chain-of-Thought)、Tree of Thoughts 思维树 (Tree-of-Thoughts)、MoE 混合专家 (Mixture of Experts, MoE)、RLHF 基于人类反馈的强化学习 (Reinforcement Learning from Human Feedback, RLHF)、SFT 监督微调 (Supervised Fine-Tuning, SFT)、PEFT 参数高效微调 (Parameter-Efficient Fine-Tuning, PEFT)、LoRA 低秩适配 (Low-Rank Adaptation, LoRA)、RAG 检索增强生成 (Retrieval Augmented Generation, RAG)、Quantization 量化 (quantization)、Distillation 蒸馏 (distillation)、Evaluation 评估 (Evaluation)。
 
 ### Day 1: Prompt Engineering
 
@@ -331,6 +366,17 @@ On first use in a chapter, the Chinese keeps the English term. This table is the
 | Autonomous Agent | 自主智能体 (Autonomous Agent) |
 | Model | 模型 (Model) |
 | LLM | 大语言模型 (LLM) |
+| Transformer | Transformer |
+| Embedding | 嵌入 (embedding) |
+| Attention | 注意力 (attention) |
+| Fine-tuning | 微调 (fine-tuning) |
+| Pre-training | 预训练 (pre-training) |
+| Inference | 推断 (inference) |
+| Quantization | 量化 (quantization) |
+| Distillation | 蒸馏 (distillation) |
+| RLHF | 基于人类反馈的强化学习 (Reinforcement Learning from Human Feedback, RLHF) |
+| MoE / Mixture of Experts | 混合专家 (Mixture of Experts, MoE) |
+| PEFT | 参数高效微调 (Parameter-Efficient Fine-Tuning, PEFT) |
 | Prompt | 提示 (Prompt) |
 | Prompt Engineering | 提示工程 (Prompt Engineering) |
 | Token | 词元 (token) |
